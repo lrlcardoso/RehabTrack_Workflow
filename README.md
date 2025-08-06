@@ -53,7 +53,7 @@ Outputs a synchronised dataset for downstream movement analysis.
 
 📍 Depends on the outputs of both `IMU Data Processing` and `Video Data Processing`.
 
-→ [Go to repo](https://github.com/lrlcardoso/Data_Synchronization)
+→ [Go to repo](https://github.com/lrlcardoso/DataSynchronization)
 
 ---
 
@@ -63,7 +63,7 @@ Generates **binary use signals** for each limb and session.
 
 📍 Depends on `DataSynchronization` output.
 
-→ [Go to repo](https://github.com/lrlcardoso/Gross_Mov_Detector)
+→ [Go to repo](https://github.com/lrlcardoso/GrossMovDetector)
 
 ---
 
@@ -77,7 +77,7 @@ Integrates use signals and IMU-based metrics into a summary for each session and
 
 📍 Depends on `DataSynchronization` and `GrossMovDetector`.
 
-→ [Go to repo](https://github.com/lrlcardoso/UL_Activity_Estimator)
+→ [Go to repo](https://github.com/lrlcardoso/ULActivityEstimator)
 
 ---
 
@@ -85,7 +85,7 @@ Integrates use signals and IMU-based metrics into a summary for each session and
 Interactive GUI for **visual inspection and validation** of the synchronised video and IMU signals.  
 Useful for reviewing movement patterns and signal quality in rehabilitation data.
 
-→ [Go to repo](https://github.com/lrlcardoso/VideoIMUViewer)
+→ [Go to repo](https://github.com/lrlcardoso/Video-IMU_Viewer)
 
 ---
 
