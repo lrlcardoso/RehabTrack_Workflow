@@ -5,6 +5,24 @@ Each stage in the workflow is contained in a separate repository, allowing for f
 
 ---
 
+## 🧭 Workflow Overview
+
+### 🔧 Pre-processing Stage
+
+This stage prepares the data by merging, annotating, and synchronising IMU and video inputs.
+
+![Pre-processing Pipeline](./Pre_Processing_Pipeline.png)
+
+---
+
+### 📊 Processing Stage
+
+This stage detects arm use and estimates activity metrics from synchronised and segmented data.
+
+![Processing Pipeline](./Processing_Pipeline.png)
+
+---
+
 ## 📦 Modules Overview
 
 ### 🔹 IMU Data Processing
