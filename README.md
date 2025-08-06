@@ -125,7 +125,7 @@ Useful for reviewing movement patterns and signal quality in rehabilitation data
 If you use this workflow or any of its modules in your research, please cite:
 
 ```
-Cardoso, L. R. L. (2025). RehabTrack_Workflow: A Modular Video–IMU Framework for Analysing Upper-Limb Physiotherapy Data. GitHub. https://doi.org/XXXX/zenodo.XXXXX
+Cardoso, L. R. L. (2025). RehabTrack Workflow: A Modular Hybrid Video–IMU Pipeline for Analysing Upper-Limb Physiotherapy Data (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.16756215
 ```
 
 ---
