@@ -111,6 +111,6 @@ Cardoso, L. R. L. (2025). RehabTrack_Workflow: A Modular Video–IMU Framework f
 This workflow builds upon several open-source tools and libraries, including:
 
 - [WMORE](https://github.com/NeuroRehack/WMORE)
-- YOLO-Pose  
-- TorchReID  
+- [YOLO-Pose](https://github.com/itsyb/YOLOv7-Pose)  
+- [TorchReID](https://github.com/KaiyangZhou/deep-person-reid)  
 - OpenCV
