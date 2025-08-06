@@ -51,6 +51,7 @@ Data/
 ```
 
 ⚠️ **Note 1:** `VR`, `CT`, and `ARAT_VR` are just examples of session types. You may name session folders however you prefer—just make sure the paths in your code reflect your folder names.
+
 ⚠️ **Note 2:** `[date]` in session folder names should follow the format `YYYYMMDD` (e.g., `Session1_20250807`), unless you change the code to reflect another format.
 
 ## 📦 Modules Overview
