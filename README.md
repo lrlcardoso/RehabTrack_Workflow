@@ -23,6 +23,36 @@ This stage detects arm use and estimates activity metrics from synchronised and 
 
 ---
 
+## 📁 Recommended Raw Data Structure
+
+To ensure compatibility across all modules in this workflow, we suggest organising raw data as follows:
+
+```
+Data/
+└── Raw/
+    ├── P01/
+    │   ├── Session1_[date]/
+    │   │   ├── Video/
+    │   │   │   └── VR/ (or CT/, or ARAT_VR/)
+    │   │   │       ├── Camera1/
+    │   │   │       │   └── *.mkv
+    │   │   │       └── Camera2/
+    │   │   └── WMORE/
+    │   │       ├── Logger1/
+    │   │       │   └── *.csv
+    │   │       ├── Logger2/
+    │   │       ├── Logger3/
+    │   │       ├── Logger4/
+    │   │       └── Logger5/
+    │   ├── Session2_[date]/
+    │   └── Session3_[date]/
+    └── P02/
+        └── ...
+```
+
+⚠️ **Note 1:** `VR`, `CT`, and `ARAT_VR` are just examples of session types. You may name session folders however you prefer—just make sure the paths in your code reflect your folder names.
+⚠️ **Note 2:** `[date]` in session folder names should follow the format `YYYYMMDD` (e.g., `Session1_20250807`), unless you change the code to reflect another format.
+
 ## 📦 Modules Overview
 
 ### 🔹 IMU Data Processing
@@ -69,9 +99,9 @@ Generates **binary use signals** for each limb and session.
 
 ### 🔹 Upper Limb Activity Estimator
 Estimates upper limb activity by computing:
-- **Repetitions**
-- **Duration**
-- **Intensity**  
+- **Duration of Use**
+- **Movement Count**
+- **Intensity of Use**  
 
 Integrates use signals and IMU-based metrics into a summary for each session and participant.
 
