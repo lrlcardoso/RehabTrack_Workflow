@@ -1,7 +1,7 @@
 # RehabTrack_Workflow
 
-**RehabTrack_Workflow** is a modular, open-source pipeline for processing, analysing, and visualising upper-limb physiotherapy movements using **video and IMU data**.  
-Each stage in the workflow is contained in a separate repository, allowing for flexibility, transparency, and adaptation to different datasets or clinical protocols.
+**RehabTrack Workflow** is a modular, open-source pipeline for processing, analysing, and visualising upper-limb physiotherapy movements using **hybrid video–IMU data**.  
+Each stage in the workflow is contained in a separate repository, allowing for flexibility and adaptation to different datasets or clinical protocols.
 
 ---
 
