@@ -1,4 +1,4 @@
-# RehabTrack_Workflow
+# RehabTrack Workflow
 
 **RehabTrack Workflow** is a modular, open-source pipeline for processing, analysing, and visualising upper-limb physiotherapy movements using **hybrid video–IMU data**.  
 Each stage in the workflow is contained in a separate repository, allowing for flexibility and adaptation to different datasets or clinical protocols.
@@ -8,8 +8,9 @@ Each stage in the workflow is contained in a separate repository, allowing for f
 ## 📦 Modules Overview
 
 ### 🔹 IMU Data Processing
-Preprocesses raw IMU logger data by **merging, cleaning, and synchronising** multiple loggers.  
-🔁 Outputs **time-aligned CSV files** for each session and patient.  
+Preprocesses raw IMU logger data recorded using the **[WMORE](https://github.com/NeuroRehack/WMORE)** device—an open-source, wearable IMU developed for rehabilitation research.  
+This module merges, cleans, and synchronises multiple logger files, producing **time-aligned datasets** ready for analysis.
+
 📍 Must be run before `DataSynchronization`.
 
 → [Go to repo](https://github.com/lrlcardoso/IMU_Data_Processing)
@@ -89,9 +90,9 @@ Cardoso, L. R. L. (2025). RehabTrack_Workflow: A Modular Video–IMU Framework f
 
 ## 🤝 Acknowledgments
 
-This framework builds upon open-source tools including:
-- PyTorch, TorchReID, OpenCV
-- YOLO-Pose
-- PyQtGraph, AV
-- MATLAB and signal processing libraries
+This workflow builds upon several open-source tools and libraries, including:
 
+- [WMORE](https://github.com/NeuroRehack/WMORE)
+- YOLO-Pose  
+- TorchReID  
+- OpenCV
