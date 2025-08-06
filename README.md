@@ -133,7 +133,6 @@ Cardoso, L. R. L. (2025). RehabTrack_Workflow: A Modular Video–IMU Framework f
 ## 🛠 License
 
 - Code: [MIT License](LICENSE)
-- Documentation: [CC BY 4.0](LICENSE-docs)
 
 ---
 
